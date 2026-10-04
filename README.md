@@ -45,12 +45,15 @@ It is never copied to an appliance or distribution system.
 
 ## Release status
 
-Owner-signed v0.16.6 is deployed to both production appliances. Individual and
-final fleet checks passed. Both operator update checks are owner-confirmed Up to date.
-**v0.16.6 is PRODUCTION STABLE.**
-Owner-signed v0.16.7 is published for sequential fleet deployment; acceptance is pending.
+Owner-signed v0.16.7 is deployed to both production appliances. Sequential
+individual checks and an independent final fleet check passed, including Settings
+UI, signed update checks, service health and streaming protocols. Both appliances
+report installed/stable0.16.7 and Up to date.
+**v0.16.7 is PRODUCTION STABLE.**
+
 The signed stable pointer identifies the exact approved v0.16.7 bytes. Online and
 offline distribution use the same signature chain and immutable artifact.
+v0.16.6 remains unchanged as retained production-stable rollback history.
 
 v0.16.5 remains blocked and must not be installed. Its immutable artifacts and
 original signed metadata are retained for historical traceability; no v0.16.5
