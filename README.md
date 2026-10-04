@@ -27,8 +27,8 @@ Application updates do not manage Debian packages, the kernel, firmware or unatt
 The owner-controlled production Minisign public key is published at
 [`keys/dpf-camera-production.pub`](keys/dpf-camera-production.pub).
 
-- Key ID: `E8B05726374B7F77` (identifier, not a fingerprint).
-- Public-key file SHA-256: `71021bc7804ab316e20e77c2b94b6e29f456d23da20341c99f5345802bb1b981`.
+- Key ID: `D755331F7CEE4765` (identifier, not a fingerprint).
+- Public-key file SHA-256: `c4eea7fd0e3fb2eacbc935b2eb662f6d0666ad443647b0f3781f1934fe8460df`.
 
 Appliances pin this public key through a trusted installation. They must not
 replace their trust anchor by downloading a key from this repository.
