@@ -45,11 +45,18 @@ It is never copied to an appliance or distribution system.
 
 ## Release status
 
-The owner-signed v0.16.5 application release and matching signed stable metadata
-are published. Artifacts are available in the immutable `v0.16.5` GitHub Release;
-manifest copies are under `releases/0.16.5/`. The offline bundle carries the same
-signed metadata and exact inner artifact as online installation.
+**v0.16.5 deployment blocked — October 4, 2026. Do not install this candidate.**
 
-Fleet deployment acceptance is pending. Publication and signatures establish
-approval of these bytes; they do not by themselves certify hardware validation
-or designate the release PRODUCTION STABLE.
+Controlled deployment stopped before activation because required backup validation
+rejects a legitimate escaped systemd filename. The production fleet remains on
+v0.16.4. v0.16.5 is **not PRODUCTION STABLE**.
+
+The root stable pointer and signature have been withdrawn. Their original signed
+bytes are retained under `releases/0.16.5/` for traceability, alongside the manifest.
+The immutable GitHub Release artifacts and signatures remain unchanged; the
+release is marked as a blocked prerelease. An archived signature is not a current
+installation recommendation. The offline bundle is also affected by this defect.
+
+No replacement stable metadata will be published until a corrected candidate has
+completed validation and owner signing. Update checks may report that the stable
+channel is unavailable while this correction is pending.
