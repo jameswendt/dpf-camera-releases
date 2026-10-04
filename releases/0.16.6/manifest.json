@@ -1,0 +1,20 @@
+{
+  "artifact_name": "dpf-camera-0.16.6.zip",
+  "artifact_sha256": "01978c9422c5a35de695ffc0565a762920bbcc59031766b094a9bcd5ae7d9c51",
+  "artifact_size": 4037039,
+  "artifact_url": "https://github.com/jameswendt/dpf-camera-releases/releases/download/v0.16.6/dpf-camera-0.16.6.zip",
+  "build_commit": "203ea14e9eee091d4d9405040c1b2a04fedcdc1c",
+  "channel": "stable",
+  "format": 1,
+  "hardware_classes": [
+    "pi3bplus"
+  ],
+  "manifest_file_count": 121,
+  "minimum_version": "0.16.4",
+  "notes": "# DPF Camera release notes\n\n## 0.16.6\n\n- Correct backup validation for the exact supported Linux systemd unit filename.\n- Preserve strict archive path, file-type, duplicate, file-set and integrity checks.\n- Include signed application update management, equivalent online/offline trust,\n  verified backups, postinstall checks and rollback from the blocked 0.16.5 candidate.\n- Application-only bootstrap from approved 0.16.4; no OS or unattended updates.\n- No camera, recording, display, network streaming or health behavior changes.\n\nThe immutable 0.16.5 candidate remains blocked. These notes do not establish\nproduction acceptance; approval requires signed metadata and fleet validation.\n",
+  "product": "dpf-camera",
+  "reboot_required": false,
+  "signature": "minisign-ed25519-blake2b",
+  "tree": "7c9664fe4668ba6ea5c820a6c7b1a6f17bec5701",
+  "version": "0.16.6"
+}

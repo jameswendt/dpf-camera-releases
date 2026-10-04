@@ -45,18 +45,12 @@ It is never copied to an appliance or distribution system.
 
 ## Release status
 
-**v0.16.5 deployment blocked — October 4, 2026. Do not install this candidate.**
+Owner-signed v0.16.6 is published for sequential controlled deployment. Fleet
+acceptance remains pending; it is not yet designated PRODUCTION STABLE.
+The signed stable pointer identifies the exact approved v0.16.6 bytes. Online and
+offline distribution use the same signature chain and immutable artifact.
 
-Controlled deployment stopped before activation because required backup validation
-rejects a legitimate escaped systemd filename. The production fleet remains on
-v0.16.4. v0.16.5 is **not PRODUCTION STABLE**.
-
-The root stable pointer and signature have been withdrawn. Their original signed
-bytes are retained under `releases/0.16.5/` for traceability, alongside the manifest.
-The immutable GitHub Release artifacts and signatures remain unchanged; the
-release is marked as a blocked prerelease. An archived signature is not a current
-installation recommendation. The offline bundle is also affected by this defect.
-
-No replacement stable metadata will be published until a corrected candidate has
-completed validation and owner signing. Update checks may report that the stable
-channel is unavailable while this correction is pending.
+v0.16.5 remains blocked and must not be installed. Its immutable artifacts and
+original signed metadata are retained for historical traceability; no v0.16.5
+asset or signature was overwritten. v0.16.6 corrects its backup validator's
+rejection of the exact legitimate escaped systemd unit filename.
