@@ -46,8 +46,8 @@ It is never copied to an appliance or distribution system.
 ## Release status
 
 Owner-signed v0.16.6 is deployed to both production appliances. Individual and
-final fleet checks passed. Operator update-check acceptance remains pending;
-it is not yet designated PRODUCTION STABLE.
+final fleet checks passed. Both operator update checks are owner-confirmed Up to date.
+**v0.16.6 is PRODUCTION STABLE.**
 The signed stable pointer identifies the exact approved v0.16.6 bytes. Online and
 offline distribution use the same signature chain and immutable artifact.
 
