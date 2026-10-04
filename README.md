@@ -43,9 +43,13 @@ The encrypted private key remains exclusively under the owner's control on the
 owner's Mac, outside both repositories, release packages and appliance backups.
 It is never copied to an appliance or distribution system.
 
-## Bootstrap status
+## Release status
 
-The public verification key is published. No signed stable pointer or application
-artifact has been published here yet. Publication of the key alone does not
-claim a completed or deployed updater. Signed production approval follows release
-validation and local owner signing of the final immutable metadata.
+The owner-signed v0.16.5 application release and matching signed stable metadata
+are published. Artifacts are available in the immutable `v0.16.5` GitHub Release;
+manifest copies are under `releases/0.16.5/`. The offline bundle carries the same
+signed metadata and exact inner artifact as online installation.
+
+Fleet deployment acceptance is pending. Publication and signatures establish
+approval of these bytes; they do not by themselves certify hardware validation
+or designate the release PRODUCTION STABLE.

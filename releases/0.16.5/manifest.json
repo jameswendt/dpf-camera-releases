@@ -1,0 +1,20 @@
+{
+  "artifact_name": "dpf-camera-0.16.5.zip",
+  "artifact_sha256": "5cb431337b0b0599fd110b21bbbcdf3d9df1903873769879bec3d025f9a43207",
+  "artifact_size": 4036625,
+  "artifact_url": "https://github.com/jameswendt/dpf-camera-releases/releases/download/v0.16.5/dpf-camera-0.16.5.zip",
+  "build_commit": "1429896e344b87c80233ea96f54ffec0f7f8edc0",
+  "channel": "stable",
+  "format": 1,
+  "hardware_classes": [
+    "pi3bplus"
+  ],
+  "manifest_file_count": 121,
+  "minimum_version": "0.16.4",
+  "notes": "# DPF Camera release notes\n\n## 0.16.5\n\n- Signed stable application updates with explicit operator confirmation.\n- Clear installed/available version, update status and check timestamps.\n- Equivalent signature validation for online and signed offline updates.\n- Verified backup before activation and strict service/identity checks afterward.\n- Automatic restoration of the previous release when validation fails.\n- Application-only updater bootstrap; no operating-system or unattended updates.\n\nProduction approval and fleet acceptance are published separately; these notes alone do not establish approval.\n",
+  "product": "dpf-camera",
+  "reboot_required": false,
+  "signature": "minisign-ed25519-blake2b",
+  "tree": "6899490dbc90f00196cc2eeb45fd61e682bad089",
+  "version": "0.16.5"
+}
