@@ -1,8 +1,8 @@
 {
   "channel": "stable",
   "format": 1,
-  "manifest_sha256": "926891ed6e6a159178023fa75868ad87967ab712f52b8a0f82e8cb854e9372f9",
-  "manifest_url": "https://github.com/jameswendt/dpf-camera-releases/releases/download/v0.16.8/manifest.json",
+  "manifest_sha256": "08abbeb24ecd05a22f36d9bbfa39492bf624ead6bf8fd214c4232795e7fb41f8",
+  "manifest_url": "https://github.com/jameswendt/dpf-camera-releases/releases/download/v0.16.7/manifest.json",
   "product": "dpf-camera",
-  "version": "0.16.8"
+  "version": "0.16.7"
 }
