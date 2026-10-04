@@ -1,0 +1,20 @@
+{
+  "artifact_name": "dpf-camera-0.16.8.zip",
+  "artifact_sha256": "d9794bb672ac1be5e63169eef538aed5100190b23f79ed13a85a81627b098dce",
+  "artifact_size": 4124614,
+  "artifact_url": "https://github.com/jameswendt/dpf-camera-releases/releases/download/v0.16.8/dpf-camera-0.16.8.zip",
+  "build_commit": "769d5759334e512c670e6ecaa0b201f7fa25f3eb",
+  "channel": "stable",
+  "format": 1,
+  "hardware_classes": [
+    "pi3bplus"
+  ],
+  "manifest_file_count": 133,
+  "minimum_version": "0.16.7",
+  "notes": "# DPF Camera release notes\n\n## 0.16.8\n\n- Add Settings \u2192 HELP & SOP with a locally bundled, version-matched Operator Guide.\n- Document recording, snapshots, remote QR access, updates, WiFi, maintenance and troubleshooting.\n- Require matching documentation and successful Help generation during release packaging.\n- Establish separate corporate SOP metadata with an explicit not-synchronized placeholder.\n- Preserve existing camera, recording, streaming, health and resource behavior.\n- Application-only upgrade from approved v0.16.7. No operating-system changes or automatic installation.\n\nProduction approval requires owner-signed metadata and both-appliance validation.\n",
+  "product": "dpf-camera",
+  "reboot_required": false,
+  "signature": "minisign-ed25519-blake2b",
+  "tree": "6b5ffb372b1e4a63d9da5391529027081a0e5c39",
+  "version": "0.16.8"
+}
