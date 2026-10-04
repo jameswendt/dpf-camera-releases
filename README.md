@@ -48,7 +48,8 @@ It is never copied to an appliance or distribution system.
 Owner-signed v0.16.6 is deployed to both production appliances. Individual and
 final fleet checks passed. Both operator update checks are owner-confirmed Up to date.
 **v0.16.6 is PRODUCTION STABLE.**
-The signed stable pointer identifies the exact approved v0.16.6 bytes. Online and
+Owner-signed v0.16.7 is published for sequential fleet deployment; acceptance is pending.
+The signed stable pointer identifies the exact approved v0.16.7 bytes. Online and
 offline distribution use the same signature chain and immutable artifact.
 
 v0.16.5 remains blocked and must not be installed. Its immutable artifacts and

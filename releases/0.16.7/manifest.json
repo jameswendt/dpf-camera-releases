@@ -1,0 +1,20 @@
+{
+  "artifact_name": "dpf-camera-0.16.7.zip",
+  "artifact_sha256": "7ab94123c6fc24908ece76bff5b4ad6924b08d797613fd91768d4f10a92b04b3",
+  "artifact_size": 4044350,
+  "artifact_url": "https://github.com/jameswendt/dpf-camera-releases/releases/download/v0.16.7/dpf-camera-0.16.7.zip",
+  "build_commit": "d840fb967a9d91634249cede6d71b20473b3da32",
+  "channel": "stable",
+  "format": 1,
+  "hardware_classes": [
+    "pi3bplus"
+  ],
+  "manifest_file_count": 125,
+  "minimum_version": "0.16.6",
+  "notes": "# DPF Camera release notes\n\n## 0.16.7\n\n- Put Software and Network/WiFi first in Settings; keep Technical Details collapsed until needed.\n- Automatically use the official signed update channel when no override is configured.\n- Preserve explicit signed metadata mirrors and existing update preferences.\n- Add a restricted maintenance console using existing Edit Settings access, exact commands, explicit confirmation and bounded diagnostics.\n- Preserve camera, recording, streaming, health, operating-system and resource policies.\n- Application-only upgrade from approved0.16.6; no unattended installation.\n\nProduction approval requires owner-signed metadata and both-appliance validation.\n",
+  "product": "dpf-camera",
+  "reboot_required": false,
+  "signature": "minisign-ed25519-blake2b",
+  "tree": "9757ba3a952a93e9aa1ae33609780f7d8c6fd339",
+  "version": "0.16.7"
+}
