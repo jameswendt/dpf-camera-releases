@@ -59,3 +59,7 @@ v0.16.5 remains blocked and must not be installed. Its immutable artifacts and
 original signed metadata are retained for historical traceability; no v0.16.5
 asset or signature was overwritten. v0.16.6 corrects its backup validator's
 rejection of the exact legitimate escaped systemd unit filename.
+
+## v0.16.9 controlled deployment
+
+Owner-signed v0.16.9 is published for sequential attended deployment. Hardware acceptance is pending; it is not yet designated production stable. The corrected independent worker is a prerequisite, and the normal updater compatibility guard remains enforced. v0.16.8 remains blocked and immutable.
