@@ -45,7 +45,7 @@ It is never copied to an appliance or distribution system.
 
 ## Current production release
 
-**DPF Camera v0.16.9 — PRODUCTION STABLE.** Owner acceptance and final fleet checks passed. The existing authenticated stable pointer selects the exact unchanged owner-signed release. No release artifact or signed metadata was rebuilt or modified.
+The authenticated stable pointer selects the exact owner-signed **v0.16.10** release. Sequential deployment, automated hardware checks and owner physical acceptance passed on both appliances. Final authenticated appliance checker confirmation is in progress. Artifacts and signatures are unchanged.
 
 ## Historical release status
 

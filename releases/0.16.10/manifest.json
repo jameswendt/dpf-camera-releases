@@ -1,0 +1,20 @@
+{
+  "artifact_name": "dpf-camera-0.16.10.zip",
+  "artifact_sha256": "b19178275a0e74af95b0f254251013a08840e089074ebe85d52a2186fee21c57",
+  "artifact_size": 4143650,
+  "artifact_url": "https://github.com/jameswendt/dpf-camera-releases/releases/download/v0.16.10/dpf-camera-0.16.10.zip",
+  "build_commit": "d7ef23f1e526bcec046c2ac4c9706e8c1f0292a1",
+  "channel": "stable",
+  "format": 1,
+  "hardware_classes": [
+    "pi3bplus"
+  ],
+  "manifest_file_count": 138,
+  "minimum_version": "0.16.9",
+  "notes": "DPF Camera v0.16.10 adds compact configurable Camera Name and Timestamp overlays in preview, snapshots, MP4 recordings and RTSP/NVR video. Configure visibility, six fixed positions, display name, date and 12/24-hour time in Settings > Camera > Video Overlay. White outlined text replaces the older opaque information band; appliance metadata remains in recordings. The physical Pi3 640x480 / 8fps / 30-second recording profile is unchanged. Includes version-matched offline Help and correction of stale UI element references. The signed attended transition from v0.16.9 is required because shared configuration validators change; normal compatibility protections remain intact.\n",
+  "product": "dpf-camera",
+  "reboot_required": false,
+  "signature": "minisign-ed25519-blake2b",
+  "tree": "e9183bcd8b5133412b37acfc8d388810cacff244",
+  "version": "0.16.10"
+}
