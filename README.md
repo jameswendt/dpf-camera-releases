@@ -63,3 +63,7 @@ rejection of the exact legitimate escaped systemd unit filename.
 ## v0.16.9 controlled deployment
 
 Owner-signed v0.16.9 is published for sequential attended deployment. Hardware acceptance is pending; it is not yet designated production stable. The corrected independent worker is a prerequisite, and the normal updater compatibility guard remains enforced. v0.16.8 remains blocked and immutable.
+
+### v0.16.9 deployment status
+
+Sequential deployment is complete. Automated service, protocol, preservation and fleet checks passed. Final physical Help acceptance remains pending; v0.16.9 is not yet designated PRODUCTION STABLE. Signed release assets and metadata are unchanged.
