@@ -43,7 +43,11 @@ The encrypted private key remains exclusively under the owner's control on the
 owner's Mac, outside both repositories, release packages and appliance backups.
 It is never copied to an appliance or distribution system.
 
-## Release status
+## Current production release
+
+**DPF Camera v0.16.9 — PRODUCTION STABLE.** Owner acceptance and final fleet checks passed. The existing authenticated stable pointer selects the exact unchanged owner-signed release. No release artifact or signed metadata was rebuilt or modified.
+
+## Historical release status
 
 Owner-signed v0.16.7 is deployed to both production appliances. Sequential
 individual checks and an independent final fleet check passed, including Settings
